@@ -23,8 +23,6 @@ extern "C" {
 
 KIO::WorkerResult Computer::get(const QUrl &url) {
     qDebug() << "Entering GET function";
-    mimeType("text/plain");
-    QByteArray str("Hello World!");
     qDebug() << "Leaving GET function";
 
     return KIO::WorkerResult::pass();
