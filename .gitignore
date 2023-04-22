@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# do not check in build directory
+build
+

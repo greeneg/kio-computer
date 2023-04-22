@@ -1,0 +1,28 @@
+{
+    "KDE-KIO-Protocols" : {
+        "computer": {
+            "Class": ":local",
+            "Icon": "computer",
+            "deleting": false,
+            "linking": false,
+            "input": "none",
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "Access",
+                "Owner",
+                "Group",
+                "Link"
+            ],
+            "makedir": false,
+            "maxInstances": 2,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "computer",
+            "reading": true,
+            "writing": false
+        }
+    }
+}
